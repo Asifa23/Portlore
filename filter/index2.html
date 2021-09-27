@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <title>PortLore | Filter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+
+        <div class="nav-top">
+
+            <div class="brand">
+                <a href=""><img src="../images/logo.png" alt="brand-logo" /></a>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="What are you looking for..." name="querry" />
+                <button class="btn btn-warning my-auto">
+                    <i class="fas fa-search"></i>
+                    <span>Search</span>
+                </button>
+            </div>
+            <div class="user-field">
+                <a href="">
+                    <i class="far fa-user"></i>
+                    <span>Sign in</span>
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="top-section">
+
+        <div class="container">
+
+            <div class="dropdown">
+                <button class="btn dropdown-toggle btn-outline-dark" type="button" data-toggle="dropdown">
+                    <i class="fas fa-filter"></i>
+                    Filter
+                </button>
+                <div class="dropdown-menu">
+                    <button class="dropdown-item btn btn-primary filter-button" type="button" data-filter="all">All</button>
+                    <button class="dropdown-item btn btn-default filter-button" type="button" data-filter="location">Location</button>
+                    <button class="dropdown-item btn btn-default filter-button" type="button" data-filter="certified">Certified</button>
+                    <button class="dropdown-item btn btn-default filter-button" type="button" data-filter="ship-mode">Ship Mode</button>
+                </div>
+            </div>
+
+            <br />
+            <div class="row">
+
+                <div class="col-md-4 filter location">
+                    <div class="each-item">
+                        <img class="port-image" src="http://www.templates4all.com/wp-content/uploads/2011/09/Engon-Joomla-Corporate-Portfolio-Template.jpg" />
+                        <div class="cap1">
+                            <h3>Company 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc.</p>
+                        </div>
+                        <div class="cap2">
+                            <p class="text-center"><a href="">Visit</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 filter certified location">
+                    <div class="each-item">
+                        <img class="port-image" src="https://neilpatel.com/wp-content/uploads/2017/09/heavily-image-focused-website-designs.jpg" />
+                        <div class="cap1">
+                            <h3>Company 2</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc.</p>
+                        </div>
+                        <div class="cap2">
+                            <p class="text-center"><a href="">Visit</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 filter ship-mode">
+                    <div class="each-item">
+                        <img class="port-image" src="http://danielsitek.cz/pic/small/daniel-sitek-portfolio_small.jpg" />
+                        <div class="cap1">
+                            <h3>Company 3</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc.</p>
+                        </div>
+                        <div class="cap2">
+                            <p class="text-center"><a href="">Visit</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 filter certified location">
+                    <div class="each-item">
+                        <img class="port-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-6yWZCTsDnaBApNA6ZPtPGJwQEwXkT5K48RZBr4rsEKnOQvPAvUkK2XPZ2suTwxewoY&usqp=CAU" />
+                        <div class="cap1">
+                            <h3>Company 4</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc.</p>
+                        </div>
+                        <div class="cap2">
+                            <p class="text-center"><a href="">Visit</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 filter ship-mode certified">
+                    <div class="each-item">
+                        <img class="port-image" src="http://paperhaus.com/images/products/shrapnel-design-handmade-double-thick-screwpost-portfolio-cover-11x14-landscape-black-anodized-aluminum-14231_detail.jpg" />
+                        <div class="cap1">
+                            <h3>Company 5</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc.</p>
+                        </div>
+                        <div class="cap2">
+                            <p class="text-center"><a href="">Visit</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 filter location">
+                    <div class="each-item">
+                        <img class="port-image" src="http://4.bp.blogspot.com/_IDQ_mBDYk9I/SsON_Or-mGI/AAAAAAAAAEs/0AchAjEekYU/s400/Portfolio-idea-3.jpg" />
+                        <div class="cap1">
+                            <h3>Company 6</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc.</p>
+                        </div>
+                        <div class="cap2">
+                            <p class="text-center"><a href="">Visit</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="index.js" charset="utf-8" type="text/javascript"></script>
+
+</body>
+</html>
