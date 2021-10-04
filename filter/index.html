@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <title>PortLore | Filter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+
+        <div class="nav-top">
+
+            <div class="brand">
+                <a href=""><img src="../images/logo.png" alt="brand-logo" /></a>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="What are you looking for..." name="querry" />
+                <button class="btn btn-warning my-auto">
+                    <i class="fas fa-search"></i>
+                    <span>Search</span>
+                </button>
+            </div>
+            <div class="user-field">
+                <a href="">
+                    <i class="far fa-user"></i>
+                    <span>Sign in</span>
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+
+        <h2>Filter</h2>
+        <div class="position-sticky">
+            <div class="list-group list-group-flush mx-3 mt-4">
+                <button class="list-group-item list-group-item-action py-2 ripple active btn btn-primary filter-button" type="button" data-filter="all">All</button>
+                <button class="list-group-item list-group-item-action py-2 ripple btn btn-default filter-button" type="button" data-filter="location">Location</button>
+                <button class="list-group-item list-group-item-action py-2 ripple btn btn-default filter-button" type="button" data-filter="certified">Certified</button>
+                <button class="list-group-item list-group-item-action py-2 ripple btn btn-default filter-button" type="button" data-filter="ship-mode">Ship Mode</button>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="top-section">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-5 filter location">
+                    <div class="each-item">
+                        <img class="port-image" src="http://www.templates4all.com/wp-content/uploads/2011/09/Engon-Joomla-Corporate-Portfolio-Template.jpg" />
+                    </div>
+                </div>
+
+                <div class="col-md-7 filter location company-info">
+                    <h2>Company Name</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc.</p>
+                    <p>
+                        <a href="https://www.google.com/maps/place/Post+Office+ATM/@10.9935116,76.9603425,15.54z/data=!4m13!1m7!3m6!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!2sCoimbatore,+Tamil+Nadu!3b1!8m2!3d11.0168445!4d76.9558321!3m4!1s0x0:0xe9c4a4fcab09cf0b!8m2!3d10.999573!4d76.964031"><i class="fas fa-map-marker-alt" style="color: black;"></i></a>
+                        Address
+                    </p>
+                    <p>Rating: 4.5</p>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-5 filter certified location">
+                    <div class="each-item">
+                        <img class="port-image" src="https://neilpatel.com/wp-content/uploads/2017/09/heavily-image-focused-website-designs.jpg" />
+                    </div>
+                </div>
+
+                <div class="col-md-7 company-info filter certified location">
+                    <h2>Company Name</h2>
+                    <p><i class="fas fa-check-circle"></i>  Verified</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc.</p>
+                    <p>
+                        <a href=""><i class="fas fa-map-marker-alt" style="color: black;"></i></a>
+                        Address
+                    </p>
+                    <p>Rating: 4.5</p>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-5 filter ship-mode">
+                    <div class="each-item">
+                        <img class="port-image" src="http://danielsitek.cz/pic/small/daniel-sitek-portfolio_small.jpg" />
+                    </div>
+                </div>
+
+                <div class="col-md-7 company-info filter ship-mode">
+                    <h2>Company Name</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc.</p>
+                    <p>
+                        <a href=""><i class="fas fa-map-marker-alt" style="color: black;"></i></a>
+                        Address
+                    </p>
+                    <p>Rating: 4.5</p>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-5 filter certified location">
+                    <div class="each-item">
+                        <img class="port-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-6yWZCTsDnaBApNA6ZPtPGJwQEwXkT5K48RZBr4rsEKnOQvPAvUkK2XPZ2suTwxewoY&usqp=CAU" />
+                    </div>
+                </div>
+
+                <div class="col-md-7 company-info filter certified location">
+                    <h2>Company Name</h2>
+                    <p><i class="fas fa-check-circle"></i>  Verified</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc.</p>
+                    <p>
+                        <a href=""><i class="fas fa-map-marker-alt" style="color: black;"></i></a>
+                        Address
+                    </p>
+                    <p>Rating: 4.5</p>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-5 filter ship-mode certified">
+                    <div class="each-item">
+                        <img class="port-image" src="http://paperhaus.com/images/products/shrapnel-design-handmade-double-thick-screwpost-portfolio-cover-11x14-landscape-black-anodized-aluminum-14231_detail.jpg" />
+                    </div>
+                </div>
+
+                <div class="col-md-7 company-info filter ship-mode certified">
+                    <h2>Company Name</h2>
+                    <p><i class="fas fa-check-circle"></i>  Verified</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc.</p>
+                    <p>
+                        <a href=""><i class="fas fa-map-marker-alt" style="color: black;"></i></a>
+                        Address
+                    </p>
+                    <p>Rating: 4.5</p>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-5 filter location">
+                    <div class="each-item">
+                        <img class="port-image" src="http://4.bp.blogspot.com/_IDQ_mBDYk9I/SsON_Or-mGI/AAAAAAAAAEs/0AchAjEekYU/s400/Portfolio-idea-3.jpg" />
+                        <!--
+                        <div class="cap1">
+                            <h3>Company 6</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc.</p>
+                        </div>
+                        <div class="cap2">
+                            <p class="text-center"><a href="">Visit</a></p>
+                        </div>
+                        -->
+                    </div>
+                </div>
+
+                <div class="col-md-7 company-info filter location">
+                    <h2>Company Name</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc.</p>
+                    <p>
+                        <a href=""><i class="fas fa-map-marker-alt" style="color: black;"></i></a>
+                        Address
+                    </p>
+                    <p>Rating: 4.5</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="index.js" charset="utf-8" type="text/javascript"></script>
+
+</body>
+</html>
